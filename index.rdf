@@ -1,0 +1,133 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:fns="https://eric-fakens.fake/namespace-sw/fns#"
+    >
+
+    <!-- OWL -->
+    <owl:Ontology rdf:about="https://eric-fakens.fake/namespace-sw/fns#">
+        <dc:title>Ontology Element Fasilkom-TI</dc:title>
+        <dc:description>Pembuatan namespace untuk element Fasilkom-TI</dc:description>
+    </owl:Ontology>
+
+    <owl:Class rdf:about="https://eric-fakens.fake/namespace-sw/fns#fasilkomTI">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdfs:label>Fasilkom-TI</rdfs:label>
+        <rdfs:comment>Class Fakultas Ilmu Komputer dan Teknologi Informasi</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://eric-fakens.fake/namespace-sw/fns#ilkom">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdfs:subClassOf rdf:resource="https://eric-fakens.fake/namespace-sw/fns#fasilkomTI"/>
+        <rdfs:label>Ilmu Komputer</rdfs:label>
+        <rdfs:comment>(Program Studi) SubClass dari FasilkomTI</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://eric-fakens.fake/namespace-sw/fns#ti">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdfs:subClassOf rdf:resource="https://eric-fakens.fake/namespace-sw/fns#fasilkomTI"/>
+        <rdfs:label>Teknologi Informasi</rdfs:label>
+        <rdfs:comment>(Program Studi) SubClass dari FasilkomTI</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://eric-fakens.fake/namespace-sw/fns#dosenIlkom">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdfs:subClassOf rdf:resource="https://eric-fakens.fake/namespace-sw/fns#ilkom"/>
+        <rdfs:subClassOf rdf:resource="https://eric-fakens.fake/namespace-sw/fns#fasilkomTI"/>
+        <rdfs:label>Dosen Ilkom</rdfs:label>
+        <rdfs:comment>(Dosen) SubClass dari FasilkomTI</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://eric-fakens.fake/namespace-sw/fns#dosenTI">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdfs:subClassOf rdf:resource="https://eric-fakens.fake/namespace-sw/fns#ti"/>
+        <rdfs:subClassOf rdf:resource="https://eric-fakens.fake/namespace-sw/fns#fasilkomTI"/>
+        <rdfs:label>Dosen TI</rdfs:label>
+        <rdfs:comment>(Dosen) SubClass dari FasilkomTI</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://eric-fakens.fake/namespace-sw/fns#mahasiswa">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdfs:subClassOf rdf:resource="https://eric-fakens.fake/namespace-sw/fns#fasilkomTI"/>
+        <rdfs:label>Mahasiswa</rdfs:label>
+        <rdfs:comment>(Mahasiswa) SubClass dari FasilkomTI</rdfs:comment>
+    </owl:Class>
+
+    <rdf:Property rdf:about="https://eric-fakens.fake/namespace-sw/fns#nim">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+        <rdfs:domain rdf:resource="https://eric-fakens.fake/namespace-sw/fns#mahasiswa"/>
+        <rdfs:label>NIM</rdfs:label>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="https://eric-fakens.fake/namespace-sw/fns#ipk">
+        <rdfs:isDefinedBy rdf:resource="https://eric-fakens.fake/namespace-sw/fns#"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+        <rdfs:domain rdf:resource="https://eric-fakens.fake/namespace-sw/fns#mahasiswa"/>
+        <rdfs:label>IPK</rdfs:label>
+    </rdf:Property>
+    <!-- OWL -->
+
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#BuAni">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#dosenIlkom"/>
+        <foaf:firstName>Ani</foaf:firstName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#BuAmalia">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#dosenIlkom"/>
+        <foaf:firstName>Amalia</foaf:firstName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#BuDian">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#dosenIlkom"/>
+        <foaf:firstName>Dian</foaf:firstName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#PakBudi">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#dosenTI"/>
+        <foaf:firstName>Budi</foaf:firstName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#PakOpim">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#dosenTI"/>
+        <foaf:firstName>Opim</foaf:firstName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#PakDedy">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#dosenTI"/>
+        <foaf:firstName>Dedy</foaf:firstName>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#EricMartin">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#mahasiswa"/>
+        <foaf:firstName>Eric</foaf:firstName>
+        <fns:nim>191401004</fns:nim>
+        <fns:ipk>3.85</fns:ipk>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#Levi">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#mahasiswa"/>
+        <foaf:firstName>Levi</foaf:firstName>
+        <fns:nim>191401003</fns:nim>
+        <fns:ipk>4</fns:ipk>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#Reza">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#mahasiswa"/>
+        <foaf:firstName>Reza</foaf:firstName>
+        <fns:nim>191402188</fns:nim>
+        <fns:ipk>2.95</fns:ipk>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://eric-fakens.fake/person#Fauzan">
+        <rdf:type rdf:resource="https://eric-fakens.fake/namespace-sw/fns#mahasiswa"/>
+        <foaf:firstName>Fauzan</foaf:firstName>
+        <fns:nim>191402023</fns:nim>
+        <fns:ipk>3.27</fns:ipk>
+    </rdf:Description>
+
+</rdf:RDF>
