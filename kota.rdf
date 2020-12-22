@@ -1,0 +1,68 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:dbo="http://dbpedia.org/ontology/" 
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:jlj="http://www.jelajah.id/"
+    xmlns:jns="http://www.jelajah.id/namespace-sw/jns#"
+    >
+
+    <!-- OWL -->
+    <owl:Ontology rdf:about="http://www.jelajah.id/">
+        <dc:title>Jelajah</dc:title>
+        <dc:description>Membentuk ontologi Class dan subClass pada Situs Jelajah</dc:description>
+    </owl:Ontology>
+
+    <owl:Class rdf:about="http://www.jelajah.id/Negara">
+        <rdfs:isDefinedBy rdf:resource="http://www.jelajah.id/"/>
+        <rdfs:label>Negara</rdfs:label>
+        <rdfs:comment>Class Negara</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.jelajah.id/Kota">
+        <rdfs:isDefinedBy rdf:resource="http://www.jelajah.id/"/>
+        <rdfs:label>Kota</rdfs:label>
+        <rdfs:comment>Class Kota, subClass dari Negara</rdfs:comment>
+    </owl:Class>
+    
+
+    <!-- Instances -->
+    <rdf:Description rdf:about="http://www.jelajah.id/namespace-sw/jns#Indonesia">
+        <rdf:type rdf:resource="http://www.jelajah.id/Negara"/>
+        <foaf:name>Indonesia</foaf:name>
+        <dbo:longName>Negara Kesatuan Republik Indonesia</dbo:longName>
+        <dbo:Ideology>Pancasila</dbo:Ideology>
+        <dbo:motto>Bhinneka Tunggal Ika</dbo:motto>
+        <dbo:anthem>Indonesia Raya</dbo:anthem>
+        <dbo:capital>Jakarta</dbo:capital>
+        <dbo:language>Bahasa Indonesia</dbo:language>
+        <dbp:establishedDate>17 Agustus 1945</dbp:establishedDate>
+        <foaf:depiction>https://i.imgur.com/wWtYhag.png</foaf:depiction>
+        <foaf:depiction>https://i.imgur.com/pZcx3V5.png</foaf:depiction>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.jelajah.id/namespace-sw/jns#Medan">
+        <rdf:type rdf:resource="http://www.jelajah.id/Kota"/>
+        <foaf:name>Medan</foaf:name>
+        <dc:description>
+            Kota Medan adalah ibu kota provinsi Sumatra Utara, Indonesia. Kota ini merupakan kota terbesar 
+            ketiga di Indonesia setelah Jakarta dan Surabaya, serta kota terbesar di luar Pulau Jawa. Kota 
+            Medan merupakan pintu gerbang wilayah Indonesia bagian barat dengan keberadaan Pelabuhan Belawan 
+            dan Bandar Udara Internasional Kuala Namu yang merupakan bandara terbesar kedua di Indonesia. 
+            Akses dari pusat kota menuju pelabuhan dan bandara dilengkapi oleh jalan tol dan kereta api. 
+            Medan adalah kota pertama di Indonesia yang mengintegrasikan bandara dengan kereta api. 
+            Berbatasan dengan Selat Malaka, Medan menjadi kota perdagangan, industri, dan bisnis yang sangat 
+            penting di Indonesia.
+        </dc:description>
+        <foaf:depiction>https://i.imgur.com/69jjJef.jpg</foaf:depiction>
+        <dbo:foundingDate>1 Juli 1590</dbo:foundingDate>
+        <dbo:isPartOf>Sumatera Utara</dbo:isPartOf>
+        <dbo:populationTotal>2.279.894 jiwa</dbo:populationTotal>
+        <dbo:areaTotal>265,10 km2</dbo:areaTotal>
+        <dbo:areaCode>+62 61</dbo:areaCode>
+        <foaf:homepage>http://pemkomedan.go.id/</foaf:homepage>
+    </rdf:Description>
+</rdf:RDF>
