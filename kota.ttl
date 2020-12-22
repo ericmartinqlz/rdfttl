@@ -1,0 +1,45 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix jlj:   <http://www.jelajah.id/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix jns:   <http://www.jelajah.id/namespace-sw/jns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+jlj:    a               owl:Ontology ;
+        dc:description  "Membentuk ontologi Class dan subClass pada Situs Jelajah" ;
+        dc:title        "Jelajah" .
+
+jlj:Negara  a             owl:Class ;
+        rdfs:comment      "Class Negara" ;
+        rdfs:isDefinedBy  jlj: ;
+        rdfs:label        "Negara" .
+
+jlj:Kota  a               owl:Class ;
+        rdfs:comment      "Class Kota, subClass dari Negara" ;
+        rdfs:isDefinedBy  jlj: ;
+        rdfs:label        "Kota" .
+
+jns:Indonesia  a             jlj:Negara ;
+        dbo:Ideology         "Pancasila" ;
+        dbo:anthem           "Indonesia Raya" ;
+        dbo:capital          "Jakarta" ;
+        dbo:language         "Bahasa Indonesia" ;
+        dbo:longName         "Negara Kesatuan Republik Indonesia" ;
+        dbo:motto            "Bhinneka Tunggal Ika" ;
+        dbp:establishedDate  "17 Agustus 1945" ;
+        foaf:depiction       "https://i.imgur.com/wWtYhag.png" , "https://i.imgur.com/pZcx3V5.png" ;
+        foaf:name            "Indonesia" .
+
+jns:Medan  a                 jlj:Kota ;
+        dbo:areaCode         "+62 61" ;
+        dbo:areaTotal        "265,10 km2" ;
+        dbo:foundingDate     "1 Juli 1590" ;
+        dbo:isPartOf         "Sumatera Utara" ;
+        dbo:populationTotal  "2.279.894 jiwa" ;
+        dc:description       "\n            Kota Medan adalah ibu kota provinsi Sumatra Utara, Indonesia. Kota ini merupakan kota terbesar \n            ketiga di Indonesia setelah Jakarta dan Surabaya, serta kota terbesar di luar Pulau Jawa. Kota \n            Medan merupakan pintu gerbang wilayah Indonesia bagian barat dengan keberadaan Pelabuhan Belawan \n            dan Bandar Udara Internasional Kuala Namu yang merupakan bandara terbesar kedua di Indonesia. \n            Akses dari pusat kota menuju pelabuhan dan bandara dilengkapi oleh jalan tol dan kereta api. \n            Medan adalah kota pertama di Indonesia yang mengintegrasikan bandara dengan kereta api. \n            Berbatasan dengan Selat Malaka, Medan menjadi kota perdagangan, industri, dan bisnis yang sangat \n            penting di Indonesia.\n        " ;
+        foaf:depiction       "https://i.imgur.com/69jjJef.jpg" ;
+        foaf:homepage        "http://pemkomedan.go.id/" ;
+        foaf:name            "Medan" .
