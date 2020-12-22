@@ -1,0 +1,112 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fns: <https://eric-fakens.fake/namespace-sw/fns#> .
+
+<https://eric-fakens.fake/namespace-sw/fns#>
+  a owl:Ontology ;
+  dc11:title "Ontology Element Fasilkom-TI" ;
+  dc11:description "Pembuatan namespace untuk element Fasilkom-TI" .
+
+<https://eric-fakens.fake/namespace-sw/fns#fasilkomTI>
+  a owl:Class ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:label "Fasilkom-TI" ;
+  rdfs:comment "Class Fakultas Ilmu Komputer dan Teknologi Informasi" .
+
+<https://eric-fakens.fake/namespace-sw/fns#ilkom>
+  a owl:Class ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:subClassOf <https://eric-fakens.fake/namespace-sw/fns#fasilkomTI> ;
+  rdfs:label "Ilmu Komputer" ;
+  rdfs:comment "(Program Studi) SubClass dari FasilkomTI" .
+
+<https://eric-fakens.fake/namespace-sw/fns#ti>
+  a owl:Class ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:subClassOf <https://eric-fakens.fake/namespace-sw/fns#fasilkomTI> ;
+  rdfs:label "Teknologi Informasi" ;
+  rdfs:comment "(Program Studi) SubClass dari FasilkomTI" .
+
+<https://eric-fakens.fake/namespace-sw/fns#dosenIlkom>
+  a owl:Class ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:subClassOf <https://eric-fakens.fake/namespace-sw/fns#ilkom>, <https://eric-fakens.fake/namespace-sw/fns#fasilkomTI> ;
+  rdfs:label "Dosen Ilkom" ;
+  rdfs:comment "(Dosen) SubClass dari FasilkomTI" .
+
+<https://eric-fakens.fake/namespace-sw/fns#dosenTI>
+  a owl:Class ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:subClassOf <https://eric-fakens.fake/namespace-sw/fns#ti>, <https://eric-fakens.fake/namespace-sw/fns#fasilkomTI> ;
+  rdfs:label "Dosen TI" ;
+  rdfs:comment "(Dosen) SubClass dari FasilkomTI" .
+
+<https://eric-fakens.fake/namespace-sw/fns#mahasiswa>
+  a owl:Class ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:subClassOf <https://eric-fakens.fake/namespace-sw/fns#fasilkomTI> ;
+  rdfs:label "Mahasiswa" ;
+  rdfs:comment "(Mahasiswa) SubClass dari FasilkomTI" .
+
+<https://eric-fakens.fake/namespace-sw/fns#nim>
+  a rdf:Property, owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:domain <https://eric-fakens.fake/namespace-sw/fns#mahasiswa> ;
+  rdfs:label "NIM" .
+
+<https://eric-fakens.fake/namespace-sw/fns#ipk>
+  a rdf:Property, owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://eric-fakens.fake/namespace-sw/fns#> ;
+  rdfs:domain <https://eric-fakens.fake/namespace-sw/fns#mahasiswa> ;
+  rdfs:label "IPK" .
+
+<https://eric-fakens.fake/person#BuAni>
+  a <https://eric-fakens.fake/namespace-sw/fns#dosenIlkom> ;
+  foaf:firstName "Ani" .
+
+<https://eric-fakens.fake/person#BuAmalia>
+  a <https://eric-fakens.fake/namespace-sw/fns#dosenIlkom> ;
+  foaf:firstName "Amalia" .
+
+<https://eric-fakens.fake/person#BuDian>
+  a <https://eric-fakens.fake/namespace-sw/fns#dosenIlkom> ;
+  foaf:firstName "Dian" .
+
+<https://eric-fakens.fake/person#PakBudi>
+  a <https://eric-fakens.fake/namespace-sw/fns#dosenTI> ;
+  foaf:firstName "Budi" .
+
+<https://eric-fakens.fake/person#PakOpim>
+  a <https://eric-fakens.fake/namespace-sw/fns#dosenTI> ;
+  foaf:firstName "Opim" .
+
+<https://eric-fakens.fake/person#PakDedy>
+  a <https://eric-fakens.fake/namespace-sw/fns#dosenTI> ;
+  foaf:firstName "Dedy" .
+
+<https://eric-fakens.fake/person#EricMartin>
+  a <https://eric-fakens.fake/namespace-sw/fns#mahasiswa> ;
+  foaf:firstName "Eric" ;
+  fns:nim "191401004" ;
+  fns:ipk "3.85" .
+
+<https://eric-fakens.fake/person#Levi>
+  a fns:mahasiswa ;
+  foaf:firstName "Levi" ;
+  fns:nim "191401003" ;
+  fns:ipk "4" .
+
+<https://eric-fakens.fake/person#Reza>
+  a fns:mahasiswa ;
+  foaf:firstName "Reza" ;
+  fns:nim "191402188" ;
+  fns:ipk "2.95" .
+
+<https://eric-fakens.fake/person#Fauzan>
+  a fns:mahasiswa ;
+  foaf:firstName "Fauzan" ;
+  fns:nim "191402023" ;
+  fns:ipk "3.27" .
