@@ -40,8 +40,12 @@
         <dbo:capital>Jakarta</dbo:capital>
         <dbo:language>Bahasa Indonesia</dbo:language>
         <dbp:establishedDate>17 Agustus 1945</dbp:establishedDate>
-        <foaf:depiction>https://i.imgur.com/wWtYhag.png</foaf:depiction>
-        <foaf:depiction>https://i.imgur.com/pZcx3V5.png</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/HNaS37DuUZHrgnXCg9UcrxM8VF8_pp9k-lgGLtRCSdb2vMDd5sgHq6Y18PEI3BQDK7G96Mx_EkFuXPWPGp0_Oi-p5t_F-XhNG_SUDlw93A8FDmwpHWCVHYIZpb35FG3UFC5TXCtJHg=w2400
+        </foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/1POZnxoTa0FQw4vuVU7_R2bv-nL1gEBo2FwzVov1op95sHTM8FcpDSJnjwL1t2yzxIN1kbTDE-jvdtiF5kWUH1Ib9ihFyZJIAapvtcHrjfXV5MfiiMx5slgNcsjOkgVhLuG3Z45aGQ=w2400
+        </foaf:depiction>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.jelajah.id/namespace-sw/jns#Medan">
@@ -57,7 +61,9 @@
             Berbatasan dengan Selat Malaka, Medan menjadi kota perdagangan, industri, dan bisnis yang sangat 
             penting di Indonesia.
         </dc:description>
-        <foaf:depiction>https://i.imgur.com/69jjJef.jpg</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/-K9N-gTMsPjh5__CWW1ie6RDYL2vezZXTRyTevXoce7paf1YdPhvhHieH57Qn0gybqeor2PWjswlQSzQh0ui5pRYlWz1N8zP0yy0a7oaRrbwhe1v50MdmQzxCBCTFOEjUJXlH2g9_w=w2400
+        </foaf:depiction>
         <dbo:foundingDate>1 Juli 1590</dbo:foundingDate>
         <dbo:isPartOf>Sumatera Utara</dbo:isPartOf>
         <dbo:populationTotal>2.279.894 jiwa</dbo:populationTotal>
@@ -75,7 +81,9 @@
             Kota Bandung memiliki Bandar Udara Internasional yaitu Bandar Udara Husein Sastranegara.
             Kota Bandung juga dahulu sering disebut sebagai "Paris van Java" karena keindahannya.
         </dc:description>
-        <foaf:depiction>https://i.imgur.com/ZztWOIl.jpg</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/zdE6GjdbLykPQnlzJnFV5Kk12xmSLCUiYfAzB8-Aqwh9d7oT_GeTBHcW5ipN-WeIIvON4jPh3YTeVM99zS4AWX5VaBts0bE7mRl6jTXgjs1p7oF68hevsfUASEee69WmJ9ATpjgcGQ=w2400
+        </foaf:depiction>
         <dbo:foundingDate>25 September 1810</dbo:foundingDate>
         <dbo:isPartOf>Jawa Barat</dbo:isPartOf>
         <dbo:populationTotal>2.395.000 jiwa</dbo:populationTotal>
@@ -92,7 +100,9 @@
             Kota ini memiliki kurang lebih 60 kampus baik negeri, kedinasan maupun kampus swasta. 
             Kota ini juga sering dikenal dengan kulinernya yang harganya merakyat, pun demikian, kota ini juga dikenal oleh wisata yang sangat indah.            
         </dc:description>
-        <foaf:depiction>https://i.imgur.com/ab226aw.jpg</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/HpKJMeuChZ1wNyRqd81P2pcR7eu3VCh2a96xZAvOtZ3mHa9FVubEjkjjBZkwN4uJchvZZTZ3ULwa9bDL4nsZ5uHtjWkyt8Ehn3uj4Wn1BEpz0eMt8OC-z4m9p2F0QOKvWUzWoLTevA=w2400
+        </foaf:depiction>
         <dbo:foundingDate>7 Oktober 1756</dbo:foundingDate>
         <dbo:isPartOf>Daerah Istimewa Yogyakarta</dbo:isPartOf>
         <dbo:populationTotal>388.627 jiwa</dbo:populationTotal>
@@ -109,7 +119,9 @@
             Kota ini juga memiliki icon yang sangat terkenal, tak lain dan tak bukan, jembatan Amperanya.
             Kota ini sering dijuluki dengan sebutan "Bumi Sriwijaya". Kota ini merupakan ibukota provinsi Sumatera Selatan.            
         </dc:description>
-        <foaf:depiction>https://i.imgur.com/rVRKLU9.jpg</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/FPpj8LCaOuBHNps1a7U1vJzUaekTWDGDEipyq0JYPCXyONEwKxz0_UDHc1p5suRS7nLY373TTCcJXjZG_LxWZWZsWFd14xEqSOq4Ejz4aO5Ip08_MCmKqGiLNFWq9u6PLYF8qKMQZA=w2400
+        </foaf:depiction>
         <dbo:foundingDate>16 Juni 683</dbo:foundingDate>
         <dbo:isPartOf>Sumatera Selatan</dbo:isPartOf>
         <dbo:populationTotal>1.455.000 jiwa</dbo:populationTotal>
@@ -126,7 +138,9 @@
             Jakarta merupakan kota yang memiliki kepadataan penduduk nomor satu di Indonesia.    
             Jakarta sering disebut dengan kota metropolitan karena merupakan pusat pemerintahan dan perbelanjaan di Indonesia.
         </dc:description>
-        <foaf:depiction>https://i.imgur.com/44gqHci.jpg</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/KkhUqTXVvQEobzIlh0fPOiLSw7tRTNQCMGm7y37iV9CKvvzzQxEFvrORVjySlvrRhjlWN2VamZxj8cB6AEaxCyDAMBQ719mZZMF101lDnZURLhwVOVnbbJSEyNET-aXOWfRTENg7NA=w2400
+        </foaf:depiction>
         <dbo:foundingDate>22 Juni 1527</dbo:foundingDate>
         <dbo:isPartOf>Daerah Khusus Ibukota</dbo:isPartOf>
         <dbo:populationTotal>9.608.000 jiwa</dbo:populationTotal>
@@ -143,7 +157,9 @@
             Kota ini terletak di Provinsi Bali, Indonesia. Kota ini merupakan kota yang paling sering dikunjungi turis mancanegara.
             Di Kota Denpasar ini, banyak objek wisata yang bisa kita temukan, mulai dari Pantai Pandawa,Pantai Kuta, dan masih banyak lagi objek wisata yang bisa kita temukan disini.
         </dc:description>
-        <foaf:depiction>https://i.imgur.com/DeiPNyO.jpg</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/8zBoPjmdkd6fVou_4ocemDWJ31YVBYAsswThXv7-tgGgfOXMqQEpP6nWWbVtyToC23ghJhhnE6F3K10VqTj52ppMnoUyc-wPer9LtyLj73whnSYVa0NXorbMG6xuL5p-1TcHddcktA=w2400
+        </foaf:depiction>
         <dbo:foundingDate>27 Februari 1992</dbo:foundingDate>
         <dbo:isPartOf>Bali</dbo:isPartOf>
         <dbo:populationTotal>788.589 jiwa</dbo:populationTotal>
@@ -162,12 +178,77 @@
             Surabaya terletak di pantai utara Pulau Jawa bagian timur dan berhadapan dengan Selat Madura serta 
             Laut Jawa.
         </dc:description>
-        <foaf:depiction>https://i.imgur.com/5gApJSf.jpg</foaf:depiction>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/KEvjy6FLpx43ZcVfJtF5AaeruIjpCnlP0cxTITkFw8A6R-39yZWSyhl_dA_rBpnsydYbLEGm6sW51kiU4DEzIDi4TLbJdRzfi6qQRhxDIs-3TWI5gnUz9xG5OTRPJjd_KqEp5uybTg=w2400
+        </foaf:depiction>
         <dbo:foundingDate>31 Mei 1293</dbo:foundingDate>
         <dbo:isPartOf>Jawa Timur</dbo:isPartOf>
         <dbo:populationTotal>3.158.943 jiwa</dbo:populationTotal>
         <dbo:areaTotal>326,81 km2</dbo:areaTotal>
         <dbo:areaCode>+62 31</dbo:areaCode>
         <foaf:homepage>https://www.surabaya.go.id/</foaf:homepage>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.jelajah.id/namespace-sw/jns#Bogor">
+        <rdf:type rdf:resource="http://www.jelajah.id/Kota"/>
+        <foaf:name>Bogor</foaf:name>
+        <dc:description>
+            Kota Bogor adalah sebuah kota di Provinsi Jawa Barat. Kota ini terletak 59 km² di sebelah selatan 
+            Jakarta, dan wilayahnya berada di tengah-tengah wilayah Kabupaten Bogor. Bogor dikenal dengan 
+            julukan Kota Hujan, karena memiliki curah hujan yang sangat tinggi. Kota Bogor terdiri atas 6 
+            kecamatan yang dibagi lagi atas sejumlah 68 kelurahan. Pada masa Kolonial Belanda, Bogor dikenal 
+            dengan nama Buitenzorg yang berarti tanpa kecemasan atau aman tenteram.
+        </dc:description>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/GgIRUv2a6BHVT6sbNxovkyg_qGT1QSHDsFh0FzHQBLhd7TqwyHuj-H1KC28BpyOa_WPej_OhehaLplJUJB9FkEkpZ_cXX3SAmAGl2-TcasGkBgi4y1wl9nqT0eGRzas3G12qvyFbzA=w2400
+        </foaf:depiction>
+        <dbo:foundingDate>3 Juni 1482</dbo:foundingDate>
+        <dbo:isPartOf>Jawa Barat</dbo:isPartOf>
+        <dbo:populationTotal>1.048.610 jiwa</dbo:populationTotal>
+        <dbo:areaTotal>118,50 km2</dbo:areaTotal>
+        <dbo:areaCode>0251</dbo:areaCode>
+        <foaf:homepage>https://www.kotabogor.go.id</foaf:homepage>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.jelajah.id/namespace-sw/jns#Cirebon">
+        <rdf:type rdf:resource="http://www.jelajah.id/Kota"/>
+        <foaf:name>Cirebon</foaf:name>
+        <dc:description>
+            Kota Cirebon adalah salah satu kota yang berada di Provinsi Jawa Barat, Indonesia. Kota ini berada di pesisir 
+            utara Pulau Jawa atau yang dikenal dengan jalur pantura yang menghubungkan Jakarta-Cirebon-Semarang
+            -Surabaya.
+        </dc:description>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/PDDFfAkMhvh5IFa9N0ZMrLPG7LIHDzv2-8KacgVGWG_c16DVsfB6IsOkO6vLlhmhkv8irJHJkHFeKTNjv_rPKXeS2RRw_en1lWTrOlJxAPxpRgcy12OMCEg4GRK5nz8O5ACjCREYSQ=w2400
+        </foaf:depiction>
+        <dbo:foundingDate>31 Desember 1388</dbo:foundingDate>
+        <dbo:isPartOf>Jawa Barat</dbo:isPartOf>
+        <dbo:populationTotal>316.277 jiwa</dbo:populationTotal>
+        <dbo:areaTotal>37,36 km2</dbo:areaTotal>
+        <dbo:areaCode>0231</dbo:areaCode>
+        <foaf:homepage>https://www.cirebonkota.go.id</foaf:homepage>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.jelajah.id/namespace-sw/jns#Pematangsiantar">
+        <rdf:type rdf:resource="http://www.jelajah.id/Kota"/>
+        <foaf:name>Pematangsiantar</foaf:name>
+        <dc:description>
+            Kota Pematangsiantar (sering disingkat Siantar saja) adalah salah satu kota di Provinsi Sumatra 
+            Utara. Karena letak Pematangsiantar yang strategis, ia dilintasi oleh Jalan Raya Lintas Sumatra. 
+            Kota Pematangsiantar yang hanya berjarak 128 km dari Medan dan 50 km dari Parapat sering menjadi 
+            kota perlintasan bagi wisatawan yang hendak ke Danau Toba. Sebagai kota penunjang pariwisata di 
+            daerah sekitarnya, kota ini memiliki 8 hotel berbintang, 10 hotel melati dan 268 restoran. Di kota 
+            ini masih banyak terdapat sepeda motor BSA model lama sebagai becak bermesin yang menimbulkan bunyi 
+            yang keras.
+        </dc:description>
+        <foaf:depiction>
+            https://lh3.googleusercontent.com/bRxyaamUgsIWMzIAmLaASufnR8vSuJKNlGDW9aMZjV28snDs77i9xhr-0uxanSiRlucBHapGhPd3CSmBNbNA5s_GxDvNofpabbWlN_81xZtYy3dlbP4t7s1X2tDiBG89f8KkRQqRxA=w2400
+        </foaf:depiction>
+        <dbo:foundingDate>24 April 1871</dbo:foundingDate>
+        <dbo:isPartOf>Sumatera Utara</dbo:isPartOf>
+        <dbo:populationTotal>255.317 jiwa</dbo:populationTotal>
+        <dbo:areaTotal>79,97 km2</dbo:areaTotal>
+        <dbo:areaCode>0622</dbo:areaCode>
+        <foaf:homepage>http://www.pematangsiantarkota.go.id/</foaf:homepage>
     </rdf:Description>
 </rdf:RDF>
