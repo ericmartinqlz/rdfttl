@@ -24,6 +24,7 @@
 
     <owl:Class rdf:about="http://www.jelajah.id/Kota">
         <rdfs:isDefinedBy rdf:resource="http://www.jelajah.id/"/>
+        <rdfs:subClassOf rdf:resource="http://www.jelajah.id/Negara"/>
         <rdfs:label>Kota</rdfs:label>
         <rdfs:comment>Class Kota, subClass dari Negara</rdfs:comment>
     </owl:Class>
